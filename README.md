@@ -9,7 +9,7 @@ Pre-requisites:
     
 Clone code from github:
 -------
-    git clone https://github.com/VamsiTechTuts/kubernetes.git
+    git clone https://github.com/Naresh240/tomcat-kubernetes.git
     cd tomcat-mavewebappdemo
     
 Build Maven Artifact:
@@ -18,7 +18,7 @@ Build Maven Artifact:
  
 Build Docker image for Springboot Application
 --------------
-    docker build -t vamsitechtuts/tomcat-mavewebappdemo .
+    docker build -t naresh240/tomcat-kubernetes .
   
 Docker login
 -------------
@@ -26,7 +26,7 @@ Docker login
     
 Push docker image to dockerhub
 -----------
-    docker push vamsitechtuts/tomcat-mavewebappdemo
+    docker push naresh240/tomcat-kubernetes
     
 Deplot Tomcat application
 ------
